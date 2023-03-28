@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: url("bg.jpg");
+  font-family: 'Product Sans', sans-serif;
+   background: #e6f9ff;
+  
+
+}
+
+
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+
+}
+nav{
+  flex: 1;
+  text-align: left;
+  padding: 20px;
+  border: 40px;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a.split{
+   float: right;
+
+}
+
+a{
+
+  text-decoration: none;
+  color: #555;
+}
+
+a:hover{
+  color: #99ccff;
+}
+
+p{
+  color: #555;
+}
+
+.container{
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.row{
+  padding: 160px;
+  margin:120px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+  }
+
+.header{
+
+  background: #e6f9ff;
+}
+
+h1{
+  font-size: 45px;
+  text-align: center;
+}
+
+.col-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  font-size: 18px;
+  text-align: center;
+  
+}
+ .btn{
+  justify-content: center;
+  display: inline-block;
+  background: #004d99;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 10px;
+  border-radius: 40px;
+  transition: background 0.5s;
+}
+.btn:hover{
+  background: #e6f7ff;
+  color:#000000;
+}
+.footer{
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #000000;
+  text-align: center;
+}
+.footer-col-1{
+  flex-basis: 30%;
+  flex: 1;
+  text-align: center;
+}
+h3{
+  color: #555;
+
+}
+.row-3{
+  padding: 10px;
+  font-size: 24px;
+}
+
+input[type="text"],
+input[type="password"]{
+display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+ 
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: transparent;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+fieldset {
+    margin:3px;
+    padding: 5px;
+    border: none;
+}
+.error{
+  padding: 20px;
+  background-color: #BC1D1D;
+  color:#FFFFFF;
+  margin-bottom: 15px;
+}
+
+.sukses{
+  padding: 20px;
+  background-color: #88BBFF;
+  color:#FFFFFF;
+  margin-bottom: 15px;
+}
